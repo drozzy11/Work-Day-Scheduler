@@ -1,6 +1,6 @@
 
 
-  // the code will not run until the browser has finished rendering all the elements
+  // The code will not run until the browser has finished rendering all the elements
   var settings = {};
   dayjs.locale(settings);
   // dayjs.locale will cause a wait until the dom is fully loaded 
@@ -18,7 +18,7 @@
       });
     }
   
- // The function below will update the color of each time block based on whether it's in the past(grey), present(red), or future(green) relative to the current time. 
+ // The function below will update the color of each box relative to the time by adding past preset and future classes.
   function updateColor() {
     $('.time-block').each(function() {
       var hourBox = parseInt(this.id);
@@ -31,7 +31,8 @@
       }
     });
   }
- // The  function below will save the user's input in a textarea to localStorage - only when the corresponding save button has been clicked.
+ 
+ // This function will allow the textare to  save when the user clicks save
  function textEntry() {
   $('.saveBtn').on('click', function() {
     var key = $(this).parent().attr('id');
@@ -55,7 +56,7 @@ function updateTime() {
   dateElement.text(currentDate);
   timeElement.text(currentTime);
 }
-//functions to set up the page.
+//functions will run to make the page work
 hourlyColor();
 textEntry();                
 updateColor();
