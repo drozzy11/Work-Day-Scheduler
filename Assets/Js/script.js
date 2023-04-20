@@ -51,7 +51,7 @@ function updateTime() {
   var dateElement = $('#date');
   var timeElement = $('#time');
   var currentDate = dayjs().format('dddd, MMMM D, YYYY');
-  var currentTime = dayjs().format('hh:mm:ss A');
+  var currentTime = dayjs().format('hh:mm a');
   dateElement.text(currentDate);
   timeElement.text(currentTime);
 }
