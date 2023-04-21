@@ -1,4 +1,4 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Work Day Scheduler
 
 ## Description
 
@@ -30,4 +30,4 @@ The following animation demonstrates the application functionality:
 
 ## Website Link
 
-
+(https://drozzy11.github.io/Work-Day-Scheduler/)
