@@ -26,6 +26,8 @@ THEN the saved events persist
 ## Website Functionality 
 The following animation demonstrates the application functionality:
 
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/Images/05-third-party-apis-homework-demo.gif)
+![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/Images/Work%20Day%20Scheduler.gif)
+
+## Website Link
 
 
